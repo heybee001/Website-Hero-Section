@@ -1,0 +1,60 @@
+nav {
+    background-color: aquamarine;
+        width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+ul li {
+ padding: 10px 20px ;
+
+}
+
+li a {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+a:hover {
+    background-color: olivedrab;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url(/nike.webp) no-repeat center / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+h3{
+    font-size: 40px;
+    color: wheat;
+
+}
+
+.hero a {
+    padding: 20px 30px;
+    background-color: azure;
+    font-size: 18px;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+
+}
+
+a.hero{
+    background-color: dimgray;
+}
